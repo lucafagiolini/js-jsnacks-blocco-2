@@ -1,0 +1,41 @@
+body {
+    background-image: url('../img/generate\ a\ dark\ 4f2b1f6f-2a8e-4eab-853a-3b4a13df23da.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+
+}
+
+* a {
+    text-decoration: none;
+    color: #ffd000;
+}
+
+#directory {
+    width: auto;
+    height: auto;
+    background-color: rgb(16, 16, 16);
+    border: solid 6px rgb(255, 0, 187);
+
+}
+
+h1 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
+
+#btn {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
