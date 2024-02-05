@@ -1,0 +1,18 @@
+#title {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
+
+.box-1 {
+    border: solid 3px #6c757d;
+}
+
+.box-2 {
+    border: solid 3px #6c757d;
+
+}
