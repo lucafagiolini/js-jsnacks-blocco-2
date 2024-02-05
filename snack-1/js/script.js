@@ -20,4 +20,7 @@ do {
     // chiediamo di inserire un altro numero all'interno dell'array finche la somma non supera 50
 } while (somma < 50)
 
+document.querySelector('#result').innerHTML = `<span>${somma}</span>`;
+
+
 
