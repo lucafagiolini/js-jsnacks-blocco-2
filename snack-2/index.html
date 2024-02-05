@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>snack-2</title>
+
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+
 
 
 
@@ -25,7 +32,40 @@
 
 
 
-<body>
+<body data-bs-theme="dark" class="container mt-3">
+    <nav class="d-flex justify-content-center rounded-3 gap-3">
+        <div class="box-1 rounded-3 p-3 ">
+            <a class="btn btn-outline-warning btn-lg button-style text-uppercase mb-2 w-100" href="../index.html"
+                role="button">go
+                back
+                to directory</a>
+            <div class="d-flex justify-content-center gap-2 ">
+                <a class="btn btn-outline-warning btn-lg button-style text-uppercase " href="../snack-1/"
+                    role="button">previous</a>
+                <a class="btn btn-outline-warning btn-lg button-style text-uppercase " href="../snack-3/"
+                    role="button">next</a>
+            </div>
+        </div>
+        <div class="p-3 box-2 rounded-3 ">
+            <h1 id="title" class="fs-1 text-uppercase">snack 2</h1>
+            <p>Genera un numero casuale tra 1 e 100 e poi chiedi all'utente di indovinare il numero. Il programma poi
+                deve far comparire un messaggio "il numero è troppo alto" oppure "il numero è troppo basso" nel momento
+                in cui il numero detto dall'utente non è perfettamente uguale al numero estratto in modo casuale.
+                Quando l'utente trova il numero, fateglielo sapere!
+            </p>
+        </div>
+
+    </nav>
+    <div class="d-flex justify-content-center flex-column display-2 my-5 text-center">
+
+        <div class="w-100">
+            <button id="number-generator-btn" type="button" class="btn btn-warning">generate a number</button>
+        </div>
+
+
+        <div id="result">
+        </div>
+    </div>
 
 
 
