@@ -1,6 +1,6 @@
 // generiamo un numero casuale da 1 a 100
 
-document.querySelector('#check-btn').addEventListener('click', function () {
+document.querySelector('#start-game-btn').addEventListener('click', function () {
     let randomNumber;
 
     randomNumber = Math.floor(Math.random() * 100) + 1;
@@ -27,6 +27,9 @@ document.querySelector('#check-btn').addEventListener('click', function () {
     console.log('Hai indovinato!');
     console.log(userNumber);
     console.log(randomNumber);
+
+
+    document.querySelector('#result').innerHTML = `<span> hai indovinato! ${userNumber}</span>`;
 
 });
 
