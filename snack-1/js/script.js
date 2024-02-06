@@ -6,6 +6,8 @@ var numberList = [];
 let somma = 0;
 
 do {
+    somma = 0;
+
     // chidiamo di inserire un numero all'interno dell'array
     let number = parseInt(prompt('Inserisci un numero'));
     numberList.push(number);
